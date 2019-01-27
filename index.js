@@ -4,6 +4,7 @@ const inputs = glob("posts/*.md");
 const marked = require("marked");
 const slugger = require("slugger");
 const ejs = require("ejs");
+if (!fs.existsSync("out")) fs.mkdirSync("out");
 fs.copyFileSync("assets/style.css", "out/style.css");
 function readMDs() {
     return inputs.map(fn => {
