@@ -1,0 +1,39 @@
+html {
+    background: #eeeeee;
+}
+* {
+    font-family: monospace;
+}
+#title {
+    text-align: center;
+}
+#posts {
+    font-size: 1.2em;
+}
+#postTitle {
+    font-size: 1.5em;
+}
+.flexts {
+    display:flex;
+}
+.inlined{
+    display:inline;
+}
+body{
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+h2, h3 {
+    line-height: 1.2;
+}
+.post {
+    font-size: 1em;
+}
+#titlecont {
+    color: #444;
+    text-decoration: none;
+}

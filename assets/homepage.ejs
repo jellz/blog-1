@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ron's blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="/" id="titlecont"><h2 id="title">ron's blog</h2></a>
+    <hr>
+    <div id="posts">
+        <% for (let md of mds) { %>
+            <a href="/<%=md.link%>" class="post"><%- md.title_html_notag %></a>
+        <% } %>
+    </div>
+    <hr>
+    <p>Contact methods may be found on <a href="https://ronthecookie.me">my main site (yes, i know it's ugly)</a></p>
+    <p>&#169; 2019 Ron B</p>
+</body>
+</html>
